@@ -1,0 +1,80 @@
+# Byte-compiled / optimized / temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django settings
+*.secret_key
+*.sqlite3
+
+# Logs and databases
+*.log
+*.log.*
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3
+*.sqlite3-journal
+*.db
+*.db-journal
+
+# Static files
+/static/
+node_modules/
+*.bak
+
+# Media files
+/media/
+
+# Virtual environment
+venv/
+.env
+
+# Compiled Python files
+*.pyc
+
+# Project-specific files
+*.settings
+
+# Ignore pipenv and poetry virtual environments
+Pipfile.lock
+poetry.lock
+
+# Ignore environment-specific files
+.env.local
+.env.dev
+.env.prod
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore cache and temporary files
+__pycache__/
+*.swp
+*.swo
+*.swn
+*.swm
+
+# Ignore IDE-specific files and directories
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore backup files
+*~
+*.bak
+*.backup
+
+# Ignore database dumps
+*.dump
+*.sql
+*.db
+
+# Ignore pycache folders
+__pycache__/
